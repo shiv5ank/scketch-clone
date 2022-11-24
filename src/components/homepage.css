@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Lato', sans-serif
+}
+
+.main_container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+ 
+div {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.homepage_container {
+    justify-content: center;
+    display: flex;
+    min-width: 100vw;
+}
+
+.banner1_content {
+    font-family: 'Lato', sans-serif;
+    display: block;
+    line-height: 15px;
+    word-spacing: 3px;
+    letter-spacing: 0.1rem;
+    align-items: center;
+    text-align: center;
+}
+.our_offerings {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.our_offerings ::after {
+    content: '';
+    display: block;
+    width: 100px;
+    background-color: #e55454;
+    height: 2px;
+    margin: 0 auto;
+
+}
+
+.innerBanner_container {
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.left_banner {
+    width: 70%;
+    display: flex;
+    float: left;
+    box-shadow: -1px -2px 25px rgb(201, 199, 199);
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    gap: 25px;
+}
+
+.right_banner {
+    width: 70%;
+    display: flex;
+    float: right;
+    box-shadow: -1px -2px 25px rgb(201, 199, 199);
+    padding: 30px;
+    border-radius: 5px;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.development {
+   margin: auto;
+}
+
+.development_container{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    
+}
+
+.design, .development, .digitalMarketing, .digitalConsulting {
+    cursor: pointer;
+    justify-items: center;
+    margin-left: 60px;
+    display: inline-flex;
+}
+
+.liveButton_text {
+    display: flex;
+    margin-left: 20px;
+    gap: 100px;
+    margin-top: -30px;
+}
+
+.liveButton_text {
+    display: flex;
+    margin-left: 70px;
+    gap: 80px;
+    margin-top: 10px;
+    justify-content: center;
+}
