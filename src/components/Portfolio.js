@@ -20,7 +20,7 @@ const Portfolio = () => {
         <div className="testimonials_container">
             <div className="testimonials_content">
                 <div className="testimonials_img">
-                    <img class="profile_pic" src={profile} ></img>
+                    <img class="profile_pic" src={profile} alt="profilepic"></img>
                     <div className="testimonial_name">
                     <h2 className="name_head">Gautham Kumars</h2>
                     <p>CEO, Foxpers</p>
